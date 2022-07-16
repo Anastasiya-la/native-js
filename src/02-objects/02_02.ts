@@ -20,7 +20,7 @@ type HouseType = {
 }
 
 type GovernmentBuildingType = {
-    type: 'HOSPITAL' | 'FIRE_STATION'
+    type: 'HOSPITAL' | 'FIRE-STATION'
     budget: number
     staffCount: number
     address: AddressType
