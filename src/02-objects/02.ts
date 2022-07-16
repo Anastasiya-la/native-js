@@ -1,4 +1,4 @@
-type StudentType = {
+export type StudentType = {
     id: number
     name: string
     age: number
@@ -13,7 +13,7 @@ type AddressType = {
 }
 
 type LocalCityType = {
-    title: number
+    title: string
     countryTitle: string
 }
 
